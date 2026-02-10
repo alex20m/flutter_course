@@ -66,3 +66,16 @@ Open the link in any modern browser (Chrome, Edge, Safari, Firefox). The app run
   - A `FinanceController` manages a list of transactions.
   - Data is stored in a local Hive box named `"storage"` under the key `"transactions"`.
   - When you refresh or reopen the app in the same browser profile, previously entered transactions are loaded back from Hive.
+
+### Project structure for submission
+
+- The root of the zip contains:
+  - This `README.md` file.
+  - A folder called `src` that holds the application sources.
+- Inside `src`:
+  - `main.dart` is the **entry point** of the application.
+  - The Flutter project lives under `lib/`, `pubspec.yaml`, `web/`, `test/`, etc.
+  - To run locally:
+    - `cd src`
+    - `flutter pub get`
+    - `flutter run -d chrome`
