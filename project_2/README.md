@@ -4,7 +4,11 @@
 This is a maze navigation game built with Flutter and Flame engine. The player controls a blue ball and must navigate through a maze by tapping on adjacent cells to reach the green goal square. The game features three levels of increasing difficulty.
 
 ## Deployed Application URL
+<<<<<<< Updated upstream
 [Deployment URL will be added here after deployment]
+=======
+https://alex20m.github.io/maze-game/
+>>>>>>> Stashed changes
 
 ## How to Use the Application
 
